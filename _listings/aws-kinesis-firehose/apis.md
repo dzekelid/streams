@@ -37,7 +37,7 @@ apis:
   tags: Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/streams/master/_listings/aws-kinesis-firehose/action-deletedeliverystream-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/streams/master/_listings/aws-kinesis-firehose/action-describedeliverystream-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/firehose/
