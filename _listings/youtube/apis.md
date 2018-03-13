@@ -26,7 +26,7 @@ apis:
   tags: Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/streams/master/_listings/youtube/livestreams-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/streams/master/_listings/youtube/livestreams-get.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
