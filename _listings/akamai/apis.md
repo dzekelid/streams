@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/streams/master/_listings/akamai/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/streams/master/_listings/akamai/events-v2-accountid-streams-universallive-sortfield,sortorder,limit,startindex-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/akamai/events-v2-accountid-streams-flashlive-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
