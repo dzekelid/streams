@@ -12,9 +12,9 @@ tags:
 - Stack Network
 - Stack
 - Google APIs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/streams/master/_listings/youtube/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Youtube
@@ -26,7 +26,7 @@ apis:
   tags: Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/streams/master/_listings/youtube/livestreams-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-delete.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
