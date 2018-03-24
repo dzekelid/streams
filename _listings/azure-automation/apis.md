@@ -13,8 +13,8 @@ tags:
 - Orchestration
 - Microsoft
 - Automation
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/azure-automation/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-runbooks-runbookname-draft-testjob-streams-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-runbooks-runbookname-draft-testjob-streams-jobstreamid-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/automation/
