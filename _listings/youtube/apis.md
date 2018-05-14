@@ -27,16 +27,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-put.md
-- name: Youtube Add Livestreams
-  description: Creates a video stream. The stream enables you to send your video to
-    YouTube, which can then broadcast the video to your audience.
+- name: Youtube Put Livestreams
+  description: Updates a video stream. If the properties that you want to change cannot
+    be updated, then you need to create a new stream with the proper settings.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-put.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
