@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-put.md
-- name: Youtube Delete Livestreams
-  description: Deletes a video stream.
+- name: Youtube Get Livestreams
+  description: Returns a list of video streams that match the API request parameters.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-get-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
