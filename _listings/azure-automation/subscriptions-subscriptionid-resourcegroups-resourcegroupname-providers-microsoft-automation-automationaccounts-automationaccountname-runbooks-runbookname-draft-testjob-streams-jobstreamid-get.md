@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API Test Job Streams Get
   version: 1.0.0
+  description: Retrieve a test job streams identified by runbook name and stream id.
 host: management.azure.com
 basePath: /
 schemes:
