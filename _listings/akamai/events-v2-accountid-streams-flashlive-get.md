@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List Flash Live Streams
+  description: List Flash Live Streams
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: List Flash Live Streams
       operationId: eventsv2accountidstreamsflashlive
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for the account
         type: string
