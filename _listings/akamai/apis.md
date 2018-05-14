@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API List Flash Live Streams
-  description: List Flash Live Streams
+- name: Akamai API List Silverlight Live Streams
+  description: List Silverlight Live Streams
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/akamai/events-v2-accountid-streams-flashlive-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/akamai/events-v2-accountid-streams-silverlightlive-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
