@@ -7,69 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-yout
 x-kinRank: "9"
 x-alexaRank: "2"
 tags: Streams
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Youtube Delete Livestreams
-  x-api-slug: youtube
-  description: Deletes a video stream.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveStreams
-  tags: Livestreams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-delete-openapi.md
-- name: Youtube Get Livestreams
-  x-api-slug: youtube
-  description: Returns a list of video streams that match the API request parameters.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveStreams
-  tags: Livestreams
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-get-openapi.md
-- name: Youtube Add Livestreams
-  x-api-slug: youtube
-  description: Creates a video stream. The stream enables you to send your video to
-    YouTube, which can then broadcast the video to your audience.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveStreams
-  tags: Livestreams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-post-openapi.md
-- name: Youtube Put Livestreams
-  x-api-slug: youtube
-  description: Updates a video stream. If the properties that you want to change cannot
-    be updated, then you need to create a new stream with the proper settings.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveStreams
-  tags: Livestreams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/livestreams-put-openapi.md
-- name: Youtube
-  x-api-slug: youtube
-  description: Enjoy the videos and music you love, upload original content, and share
-    it all with friends, family, and the world on YouTube.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1
-  tags: Streams
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/streams/master/_listings/youtube/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://yelp.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://youtube.stack.network
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
 - type: x-authentication

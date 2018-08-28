@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Spreaker
 x-complete: 1
@@ -28,6 +27,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Episode
       - Streams
   /episode/{episode_id}/streams/rtmp:
@@ -44,6 +44,6 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Episode
       - Streams
----

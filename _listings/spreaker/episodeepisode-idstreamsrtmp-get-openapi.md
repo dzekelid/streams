@@ -29,6 +29,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Episode
       - Streams
   /episode/{episode_id}/streams/rtmp:
@@ -45,6 +46,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Episode
       - Streams
 x-streamrank:

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Automation
 x-complete: 1
@@ -67,4 +66,79 @@ paths:
       - Streams
       - ListTest
       - Job
----
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/compilationjobs/{jobId}/streams/{jobStreamId}
+  : get:
+      summary: Dsc Compilation Job Get Stream
+      description: Retrieve the job stream identified by job stream id.
+      operationId: DscCompilationJob_GetStream
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamecompilationjobsjobidstreamsjobstreamid-get
+      parameters:
+      - in: path
+        name: automationAccountName
+        description: The automation account name
+      - in: path
+        name: jobId
+        description: The job id
+      - in: path
+        name: jobStreamId
+        description: The job stream id
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dsc
+      - Compilation
+      - Job
+      - ""
+      - Stream
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/jobs/{jobId}/streams/{jobStreamId}
+  : get:
+      summary: Job Stream Get
+      description: Retrieve the job stream identified by job stream id.
+      operationId: JobStream_Get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamejobsjobidstreamsjobstreamid-get
+      parameters:
+      - in: path
+        name: automationAccountName
+        description: The automation account name
+      - in: path
+        name: jobId
+        description: The job id
+      - in: path
+        name: jobStreamId
+        description: The job stream id
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Job
+      - Stream
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automation/automationAccounts/{automationAccountName}/jobs/{jobId}/streams
+  : get:
+      summary: Job Stream List By Job
+      description: Retrieve a list of jobs streams identified by job id.
+      operationId: JobStream_ListByJob
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-automationautomationaccountsautomationaccountnamejobsjobidstreams-get
+      parameters:
+      - in: query
+        name: $filter
+        description: The filter to apply on the operation
+      - in: path
+        name: automationAccountName
+        description: The automation account name
+      - in: path
+        name: jobId
+        description: The job Id
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Job
+      - Stream
+      - ListJob

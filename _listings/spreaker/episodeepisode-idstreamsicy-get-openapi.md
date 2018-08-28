@@ -29,6 +29,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Episode
       - Streams
 x-streamrank:
